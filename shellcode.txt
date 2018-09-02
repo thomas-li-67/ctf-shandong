@@ -1,0 +1,443 @@
+
+
+0x61fc80:    push   %eax
+   0x61fc81:    pop    %ecx
+   0x61fc82:    dec    %ecx
+   0x61fc83:    dec    %ecx
+   0x61fc84:    dec    %ecx
+   0x61fc85:    dec    %ecx
+   0x61fc86:    dec    %ecx
+   0x61fc87:    dec    %ecx
+   0x61fc88:    dec    %ecx
+   0x61fc89:    dec    %ecx
+   0x61fc8a:    dec    %ecx
+   0x61fc8b:    dec    %ecx
+   0x61fc8c:    push   %ecx
+   0x61fc8d:    pop    %edx
+   0x61fc8e:    push   %esi
+   0x61fc8f:    push   %esp
+   0x61fc90:    pop    %eax
+   0x61fc91:    xor    (%eax),%esi
+   0x61fc93:    push   %esi
+   0x61fc94:    pop    %eax
+   0x61fc95:    xor    $0x41,%al
+   0x61fc97:    push   %eax
+   0x61fc98:    xor    %al,0x33(%ecx)
+   0x61fc9b:    dec    %eax
+   0x61fc9c:    dec    %eax
+   0x61fc9d:    xor    %al,0x30(%ecx)
+   0x61fca0:    xor    %al,0x42(%ecx)
+   0x61fca3:    inc    %ecx
+   0x61fca4:    inc    %ecx
+   0x61fca5:    inc    %edx
+   0x61fca6:    imul   $0x10,0x41(%ecx),%eax
+=> 0x61fcaa:    xor    0x42(%ecx),%al
+   0x61fcad:    xor    0x42(%edx),%al
+   0x61fcb0:    xor    %al,0x42(%edx)
+   0x61fcb3:    pop    %eax
+   0x61fcb4:    push   %eax
+   0x61fcb5:    cmp    %al,0x43(%ecx)
+   0x61fcb8:    jne    0x61fd04
+
+   ====
+   eax            0x958494a0       -1786473312
+ecx            0x61fc78 6421624
+edx            0x61fc77 6421623
+ebx            0x405064 4214884
+esp            0x61fc78 0x61fc78
+ebp            0x61ff38 0x61ff38
+esi            0x0      0
+edi            0x61ff20 6422304
+eip            0x61fcaa 0x61fcaa
+eflags         0xa87    [ CF PF SF IF OF ]
+cs             0x23     35
+ss             0x2b     43
+ds             0x2b     43
+es             0x2b     43
+fs             0x53     83
+gs             0x2b     43
+=======
+
+0x61fc80:    push   %eax
+   0x61fc81:    pop    %ecx
+   0x61fc82:    dec    %ecx
+   0x61fc83:    dec    %ecx
+   0x61fc84:    dec    %ecx
+   0x61fc85:    dec    %ecx
+   0x61fc86:    dec    %ecx
+   0x61fc87:    dec    %ecx
+   0x61fc88:    dec    %ecx
+   0x61fc89:    dec    %ecx
+   0x61fc8a:    dec    %ecx
+   0x61fc8b:    dec    %ecx
+   0x61fc8c:    push   %ecx
+   0x61fc8d:    pop    %edx
+   0x61fc8e:    push   %esi
+   0x61fc8f:    push   %esp
+   0x61fc90:    pop    %eax
+   0x61fc91:    xor    (%eax),%esi
+   0x61fc93:    push   %esi
+   0x61fc94:    pop    %eax
+   0x61fc95:    xor    $0x41,%al
+   0x61fc97:    push   %eax
+   0x61fc98:    xor    %al,0x33(%ecx)
+   0x61fc9b:    dec    %eax
+   0x61fc9c:    dec    %eax
+   0x61fc9d:    xor    %al,0x30(%ecx)
+   0x61fca0:    xor    %al,0x42(%ecx)
+   0x61fca3:    inc    %ecx
+   0x61fca4:    inc    %ecx
+   0x61fca5:    inc    %edx
+   0x61fca6:    imul   $0x10,0x41(%ecx),%eax
+   0x61fcaa:    xor    0x42(%ecx),%al
+   0x61fcad:    xor    0x42(%edx),%al
+   0x61fcb0:    xor    %al,0x42(%edx)
+   0x61fcb3:    pop    %eax
+   0x61fcb4:    push   %eax
+=> 0x61fcb5:    cmp    %al,0x43(%ecx)
+   0x61fcb8:    jne    0x61fca3
+   0x61fcba:    dec    %ecx
+   0x61fcbb:    pop    %eax
+   0x61fcbc:    pop    %ecx
+   0x61fcbd:    dec    %edx
+   0x61fcbe:    dec    %ebx
+   0x61fcbf:    dec    %ebp
+   0x61fcc0:    dec    %ebx
+   0x61fcc1:    cmp    %ecx,0x43(%ecx)
+   0x61fcc4:    inc    %esp
+   0x61fcc5:    ss
+   0x61fcc6:    inc    %esp
+   0x61fcc7:    dec    %edx
+   0x61fcc8:    push   %esp
+   0x61fcc9:    xor    %dh,(%ecx)
+   0x61fccb:    cmp    %eax,0x4f(%edx)
+   0x61fcce:    inc    %edx
+   0x61fccf:    xor    $0x37,%al
+   0x61fcd1:    push   %eax
+   0x61fcd2:    xor    %ebx,0x59(%ecx)
+   0x61fcd5:    inc    %ebp
+   0x61fcd6:    xor    $0x4c,%al
+   0x61fcd8:    dec    %ebx
+   0x61fcd9:    xor    0x36(%ecx),%dl
+   0x61fcdc:    push   %eax
+   0x61fcdd:    dec    %esp
+   0x61fcde:    dec    %ebx
+==============
+eax            0x41     65
+ecx            0x61fc78 6421624
+edx            0x61fc77 6421623
+ebx            0x405064 4214884
+esp            0x61fc78 0x61fc78
+ebp            0x61ff38 0x61ff38
+esi            0x0      0
+edi            0x61ff20 6422304
+eip            0x61fcb5 0x61fcb5
+eflags         0x282    [ SF IF ]
+cs             0x23     35
+ss             0x2b     43
+ds             0x2b     43
+es             0x2b     43
+fs             0x53     83
+gs             0x2b     43
+==============
+
+gdb) x/256i 0x61fcba
+=> 0x61fcba:    fldpi
+   0x61fcbc:    fstenv -0xc(%esp)
+   0x61fcc1:    xor    %edx,%edx
+   0x61fcc3:    mov    $0x77,%dl
+   0x61fcc5:    xor    %ecx,%ecx
+   0x61fcc7:    mov    %fs:0x30(%ecx),%esi
+   0x61fccb:    mov    0xc(%esi),%esi
+   0x61fcce:    mov    0x1c(%esi),%esi
+   0x61fcd1:    mov    0x8(%esi),%eax
+   0x61fcd4:    mov    0x20(%esi),%edi
+   0x61fcd7:    mov    (%esi),%esi
+   0x61fcd9:    cmp    %cl,0x18(%edi)
+   0x61fcdc:    jne    0x61fcd1
+   0x61fcde:    pop    %ecx
+   0x61fcdf:    add    %edx,%ecx
+   0x61fce1:    jmp    *%ecx
+   0x61fce3:    pusha
+   0x61fce4:    mov    0x24(%esp),%ebp
+   0x61fce8:    mov    0x3c(%ebp),%eax
+   0x61fceb:    mov    0x78(%eax,%ebp,1),%edx
+   0x61fcef:    add    %ebp,%edx
+   0x61fcf1:    mov    0x18(%edx),%ecx
+   0x61fcf4:    mov    0x20(%edx),%ebx
+   0x61fcf7:    add    %ebp,%ebx
+   0x61fcf9:    jecxz  0x61fd2f
+   0x61fcfb:    dec    %ecx
+   0x61fcfc:    mov    (%ebx,%ecx,4),%esi
+   0x61fcff:    add    %ebp,%esi
+   0x61fd01:    xor    %edi,%edi
+   0x61fd03:    xor    %eax,%eax
+   0x61fd05:    cld
+   0x61fd06:    lods   %ds:(%esi),%al
+   0x61fd07:    test   %al,%al
+   0x61fd09:    je     0x61fd12
+   0x61fd0b:    ror    $0xd,%edi
+   0x61fd0e:    add    %eax,%edi
+   0x61fd10:    jmp    0x61fd06
+   0x61fd12:    cmp    0x28(%esp),%edi
+   0x61fd16:    jne    0x61fcf9
+   0x61fd18:    mov    0x24(%edx),%ebx
+   0x61fd1b:    add    %ebp,%ebx
+   0x61fd1d:    mov    (%ebx,%ecx,2),%cx
+   0x61fd21:    mov    0x1c(%edx),%ebx
+   0x61fd24:    add    %ebp,%ebx
+   0x61fd26:    mov    (%ebx,%ecx,4),%eax
+   0x61fd29:    add    %ebp,%eax
+   0x61fd2b:    mov    %eax,0x1c(%esp)
+   0x61fd2f:    popa
+   0x61fd30:    ret
+   0x61fd31:    mov    $0x8,%dl
+   0x61fd33:    sub    %edx,%esp
+   0x61fd35:    mov    %esp,%ebp
+   0x61fd37:    mov    %eax,%edx
+   0x61fd39:    push   $0xec0e4e8e
+   0x61fd3e:    push   %edx
+   0x61fd3f:    call   0x61fce3
+   0x61fd44:    mov    %eax,0x4(%ebp)
+   0x61fd47:    mov    $0x73e2d87e,%ebx
+   0x61fd4c:    xchg   %ebx,(%esp)
+   0x61fd4f:    push   %edx
+   0x61fd50:    call   0x61fce3
+   0x61fd55:    mov    %eax,0x8(%ebp)
+   0x61fd58:    push   $0x41206c6c
+   0x61fd5d:    push   $0x642e3233
+   0x61fd62:    push   $0x72657375
+   0x61fd67:    mov    %bl,0xa(%esp)
+   0x61fd6b:    mov    %esp,%esi
+   0x61fd6d:    push   %esi
+   0x61fd6e:    call   *0x4(%ebp)
+   0x61fd71:    mov    %eax,%edx
+   0x61fd73:    push   %eax
+   0x61fd74:    mov    $0xbc4da2a8,%ebx
+   0x61fd79:    xchg   %ebx,(%esp)
+   0x61fd7c:    push   %edx
+   0x61fd7d:    call   0x61fce3
+   0x61fd82:    push   $0x58726576
+   0x61fd87:    push   $0x72657320
+   0x61fd8c:    push   $0x736e6420
+   0x61fd91:    push   $0x6d6f7266
+   0x61fd96:    push   $0x2079656b
+   0x61fd9b:    push   $0x20656874
+   0x61fda0:    xor    %ebx,%ebx
+   0x61fda2:    mov    %bl,0x17(%esp)
+   0x61fda6:    mov    %esp,%ebx
+   0x61fda8:    push   $0x20202058
+   0x61fdad:    push   $0x62316265
+   0x61fdb2:    push   $0x62396137
+   0x61fdb7:    push   $0x61663932
+   0x61fdbc:    push   $0x31633733
+   0x61fdc1:    push   $0x39636165
+   0x61fdc6:    push   $0x66666436
+   0x61fdcb:    push   $0x62393463
+   0x61fdd0:    push   $0x37363936
+   0x61fdd5:    xor    %ecx,%ecx
+   0x61fdd7:    mov    %cl,0x20(%esp)
+   0x61fddb:    mov    %esp,%ecx
+   0x61fddd:    xor    %edx,%edx
+   0x61fddf:    push   %edx
+   0x61fde0:    push   %ebx
+   0x61fde1:    push   %ecx
+   0x61fde2:    push   %edx
+   0x61fde3:    call   *%eax
+   0x61fde5:    xor    %eax,%eax
+   0x61fde7:    push   %eax
+   0x61fde8:    call   *0x8(%ebp)
+   0x61fdeb:    dec    %ebx
+   0x61fdec:    dec    %edi
+   0x61fded:    dec    %ebx
+   0x61fdee:    dec    %edi
+   0x61fdef:    dec    %ebx
+   0x61fdf0:    dec    %edi
+   0x61fdf1:    dec    %esp
+   0x61fdf2:    dec    %ecx
+   0x61fdf3:    push   %edi
+   0x61fdf4:    xor    $0x38353833,%eax
+   0x61fdf9:    push   %edx
+   0x61fdfa:    dec    %esp
+   0x61fdfb:    xor    0x30(%ecx,%edx,2),%cl
+   0x61fdff:    inc    %edi
+   0x61fe00:    xor    %eax,0x48(%edx)
+   0x61fe03:    push   %edi
+   0x61fe04:    inc    %ebx
+   0x61fe05:    inc    %esi
+   0x61fe06:    push   %edx
+   0x61fe07:    push   %esi
+   0x61fe08:    dec    %esi
+   0x61fe09:    xor    $0x44584334,%eax
+   0x61fe0e:    xor    $0x35453354,%eax
+   0x61fe13:    inc    %edx
+   0x61fe14:    push   %edx
+   0x61fe15:    dec    %ebx
+   0x61fe16:    cmp    %dl,0x4c(%ecx)
+   0x61fe19:    ss
+   0x61fe1a:    inc    %esp
+   0x61fe1b:    push   %esp
+   0x61fe1c:    dec    %edx
+   0x61fe1d:    dec    %ebx
+   0x61fe1e:    cmp    %ecx,0x36(%ebp)
+   0x61fe21:    xor    %dl,0x4b(%esi)
+   0x61fe24:    dec    %edi
+   0x61fe25:    push   %eax
+   0x61fe26:    push   %ebp
+   0x61fe27:    inc    %ebp
+   0x61fe28:    push   %esp
+   0x61fe29:    dec    %esp
+   0x61fe2a:    dec    %ecx
+   0x61fe2b:    pop    %ecx
+   0x61fe2c:    push   %edx
+   0x61fe2d:    inc    %esi
+   0x61fe2e:    xor    %cl,0x4b(%edi)
+   0x61fe31:    dec    %ecx
+   0x61fe32:    cmp    %cl,0x52(%edi)
+   0x61fe35:    xor    %cl,0x4f(%ebp)
+   0x61fe38:    dec    %esp
+   0x61fe39:    dec    %esp
+   0x61fe3a:    inc    %edi
+   0x61fe3b:    xor    $0x3644564c,%eax
+   0x61fe40:    xor    0x48(%edx),%bl
+   0x61fe43:    inc    %ebp
+   0x61fe44:    xor    %ecx,0x4f(%ebx)
+   0x61fe47:    dec    %ebx
+   0x61fe48:    dec    %edi
+   0x61fe49:    dec    %ebx
+   0x61fe4a:    dec    %edi
+   0x61fe4b:    inc    %ebp
+   0x61fe4c:    cmp    %al,0x56(%edx)
+   0x61fe4f:    inc    %ebx
+   0x61fe50:    push   %ebp
+   0x61fe51:    push   %edx
+   0x61fe52:    push   %edx
+   0x61fe53:    xor    %ecx,0x55(%eax)
+   0x61fe56:    cmp    %dl,0x50(%edi)
+   0x61fe59:    inc    %ebx
+   0x61fe5a:    inc    %ebx
+   0x61fe5b:    inc    %edx
+   0x61fe5c:    inc    %ebp
+   0x61fe5d:    inc    %esp
+   0x61fe5e:    xor    (%edx),%dh
+   0x61fe60:    dec    %eax
+   0x61fe61:    push   %ecx
+   0x61fe62:    xor    %dh,(%ebx)
+   0x61fe64:    push   %esp
+   0x61fe65:    push   %edx
+   0x61fe66:    dec    %esi
+   0x61fe67:    inc    %esp
+   0x61fe68:    xor    0x34465238,%esi
+   0x61fe6e:    xor    0x4f(%edx),%al
+   0x61fe71:    push   %edx
+   0x61fe72:    dec    %ebp
+   0x61fe73:    inc    %ebx
+   0x61fe74:    pop    %eax
+   0x61fe75:    xor    0x55(%ebx),%cl
+   0x61fe78:    xor    $0x30514943,%eax
+   0x61fe7d:    xor    0x43(%eax),%ebx
+   0x61fe80:    inc    %esp
+   0x61fe81:    push   %edx
+   0x61fe82:    dec    %eax
+   0x61fe83:    push   %ebx
+   0x61fe84:    push   %ebp
+   0x61fe85:    xor    %esi,(%eax)
+   0x61fe87:    inc    %esi
+   0x61fe88:    push   %ecx
+   0x61fe89:    dec    %ecx
+   0x61fe8a:    dec    %ebx
+   0x61fe8b:    dec    %ebp
+   0x61fe8c:    pop    %eax
+   0x61fe8d:    push   %ecx
+   0x61fe8e:    dec    %esp
+   0x61fe8f:    aaa
+   0x61fe90:    push   %esp
+   0x61fe91:    inc    %esp
+   0x61fe92:    push   %edi
+   0x61fe93:    dec    %ebx
+   0x61fe94:    cmp    %ecx,0x33(%ebp)
+   0x61fe97:    push   %edx
+   0x61fe98:    dec    %eax
+   0x61fe99:    inc    %esi
+   0x61fe9a:    cmp    %dh,(%ecx)
+   0x61fe9c:    xor    %dl,0x30(%ecx)
+   0x61fe9f:    push   %edi
+   0x61fea0:    push   %eax
+   0x61fea1:    inc    %edx
+   0x61fea2:    dec    %eax
+   0x61fea3:    xor    0x55(%ebp),%edx
+   0x61fea6:    xor    (%esi),%dh
+   0x61fea8:    push   %ecx
+   0x61fea9:    xor    $0x50483232,%eax
+   0x61feae:    aaa
+   0x61feaf:    push   %ebp
+   0x61feb0:    xor    %edx,0x39(%eax)
+   0x61feb3:    push   %ebx
+   0x61feb4:    push   %edx
+   0x61feb5:    push   %ebp
+   0x61feb6:    cmp    %al,0x42(%edi)
+   0x61feb9:    push   %edi
+   0x61feba:    dec    %ecx
+   0x61febb:    xor    $0x32314536,%eax
+   0x61fec0:    dec    %eax
+   0x61fec1:    ss
+   0x61fec2:    push   %ebx
+   0x61fec3:    xor    %dh,(%edi)
+   0x61fec5:    push   %ebx
+   0x61fec6:    push   %ebx
+   0x61fec7:    push   %eax
+   0x61fec8:    xor    %edx,0x58(%ebx)
+   0x61fecb:    push   %edx
+   0x61fecc:    inc    %ebp
+   0x61fecd:    xor    $0x50333531,%eax
+   0x61fed2:    cmp    %eax,0x58(%ebx)
+   0x61fed5:    push   %esi
+   0x61fed6:    push   %esi
+   0x61fed7:    xor    $0x35564334,%eax
+   0x61fedc:    ss
+   0x61fedd:    push   %ebx
+   0x61fede:    pop    %eax
+   0x61fedf:    xor    0x36(%ebx),%edx
+   0x61fee2:    push   %esp
+   0x61fee3:    inc    %esi
+   0x61fee4:    pop    %ecx
+   0x61fee5:    xor    0x35(%edx),%edx
+   0x61fee8:    cmp    %dh,(%edi)
+   0x61feea:    inc    %esi
+   0x61feeb:    inc    %esi
+   0x61feec:    pop    %ecx
+   0x61feed:    push   %edi
+   0x61feee:    inc    %esi
+   0x61feef:    push   %edi
+   0x61fef0:    inc    %edi
+   0x61fef1:    push   %esi
+   0x61fef2:    push   %ecx
+   0x61fef3:    cmp    %ebx,0x4c(%ecx)
+   0x61fef6:    dec    %eax
+   0x61fef7:    push   %eax
+   0x61fef8:    dec    %esp
+   0x61fef9:    inc    %edi
+   0x61fefa:    push   %esp
+   0x61fefb:    push   %ecx
+   0x61fefc:    xor    %cl,0x39(%ebx)
+   0x61feff:    dec    %ebp
+   0x61ff00:    xor    %esi,(%eax)
+   0x61ff02:    xor    %ecx,0x32(%esi)
+   0x61ff05:    push   %esi
+   0x61ff06:    xor    (%eax),%dh
+   0x61ff08:    push   %ebx
+   0x61ff09:    xor    %edx,%ss:0x42(%ecx)
+   0x61ff0d:    dec    %ebx
+   0x61ff0e:    dec    %edi
+   0x61ff0f:    dec    %esi
+   0x61ff10:    xor    %al,0x51(%esi)
+   0x61ff13:    dec    %ecx
+   0x61ff14:    push   %eax
+   0x61ff15:    xor    %dl,0x4b(%eax)
+   0x61ff18:    dec    %edi
+   0x61ff19:    push   %eax
+   0x61ff1a:    push   %ebp
+   0x61ff1b:    push   %esp
+   0x61ff1c:    dec    %eax
+   0x61ff1d:    inc    %ecx
+   0x61ff1e:    inc    %ecx
